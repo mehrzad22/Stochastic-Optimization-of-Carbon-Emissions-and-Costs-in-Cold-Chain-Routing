@@ -33,8 +33,10 @@ In this context, time plays a crucial role in influencing costs, making it essen
 
 By integrating these insights, we can make informed decisions to optimize traffic flow and effectively reduce costs.
 
-![image](https://github.com/user-attachments/assets/ebe6bff5-6945-4b4f-a319-15c8893357a5)
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0f9348a7-d9bf-47ed-99ae-9eb83f0b5e2f" alt="image" width="50%">
+</p>
 
 ## Mpg(weight)
 
@@ -66,9 +68,9 @@ This equation provides a predictive model for fuel consumption, allowing for mor
 To evaluate the reliability of our model, we utilize diagnostic plots. These plots help us visually assess key aspects such as residuals, normality, and homoscedasticity. The absence of any issues in these diagnostic plots indicates that our model meets the necessary assumptions and performs effectively.
 This reinforces the validity of our results and suggests that the model can be trusted for making predictions or drawing conclusions. By ensuring that these diagnostic criteria are satisfied, we can confidently move forward with our analysis and recommendations.
 
-![image](https://github.com/user-attachments/assets/1ba3c378-4977-4c1b-9574-05bf2f4d2b94)
-
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1ba3c378-4977-4c1b-9574-05bf2f4d2b94" alt="image" width="60%">
+</p>
 
 ## MpG vs Weight Plot
 
@@ -77,9 +79,9 @@ The graph likely shows a clear trend, indicating that as weight increases, fuel 
 The accuracy of the fitted model suggests that it can reliably predict fuel consumption for various vehicle weights, making it a valuable tool for manufacturers and consumers alike. This predictive ability can aid in making informed decisions related to vehicle design and efficiency improvements.
 
 
-![image](https://github.com/user-attachments/assets/2df25bff-e553-449a-be99-74c93edb5b5d)
-
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2df25bff-e553-449a-be99-74c93edb5b5d" alt="image" width="60%">
+</p>
 
 ## Symbols and Notation
 
@@ -125,32 +127,44 @@ The accuracy of the fitted model suggests that it can reliably predict fuel cons
 ### Fixed Cost
 When a vehicle makes a delivery from the distribution center to the front warehouse, certain fixed costs need to be covered, such as the driver's salary and vehicle maintenance expenses. Since these fixed costs tend to remain constant, they are relatively low compared to the number of customers.
 
-![image](https://github.com/user-attachments/assets/1904010e-b409-48a2-8baf-176ebe07e3d5)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f5e6a235-f5b2-4e30-b188-56399b561ab6" alt="image" width="20%">
+</p>
 
 ---
+
 ### Refrigeration Cost
 Vehicles used in cold chain logistics are equipped with refrigerated storage to maintain essential products. The refrigeration system operates on electricity produced from diesel fuel, meaning the cost of diesel reflects the refrigeration expenses. These costs can be categorized into two segments: the expenses incurred while driving and those incurred during the unloading process.
 
 #### Expenses Incurred While Driving:
-![image](https://github.com/user-attachments/assets/74bbfb89-b1bd-4dd7-9153-a3adc50d3096)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1b13892c-a26d-4c55-8400-bfe1a790db80" alt="image" width="53%">
+</p>
 
 #### Expenses Incurred During the Unloading Process:
-![image](https://github.com/user-attachments/assets/0a4ce0e8-dcc7-4418-8583-a6d930e5a589)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/230e804b-aefe-4fdd-809b-c165a8c3beae" alt="image" width="36%">
+</p>
 
+Thus, the overall refrigeration cost for the entire distribution process, denoted as (C2), can be calculated by:
 
-Thus, the overall refrigeration cost for the entire distribution process, denoted as \( C2 \), can be calculated by:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/27473b0a-e375-44e2-a885-88e99001ad19" alt="image" width="18%">
+</p>
 
-![image](https://github.com/user-attachments/assets/279ed54c-c05c-4b0c-b6f0-955de07def51)
 
 ---
+
 ### Fuel Consumption Cost
 
 Considering the variable speeds of vehicles at different times of the day, the mpg data has been utilized and multiplied by the cost of each fuel unit. The fuel consumption cost is given by:
 
-![image](https://github.com/user-attachments/assets/e90ed754-bdc9-4855-98b2-6acc277b8f84)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/642742b7-d861-4ec3-93fb-35c89b3fadc4" alt="image" width="40%">
+</p>
 
 ---
+
 ### Carbon Emission Cost
 
 Since cold storage in cold chain logistics vehicles uses electric energy, there is no direct carbon emission cost. However, we need to consider the indirect carbon emission costs resulting from diesel consumption. Additionally, the vehicle's power, which is also derived from diesel fuel, contributes to carbon emissions. Consequently, the overall carbon emission cost comprises two components:
@@ -158,18 +172,22 @@ Since cold storage in cold chain logistics vehicles uses electric energy, there 
 #### Indirect Carbon Emission Cost
 The indirect carbon emission cost for the vehicle traveling from node \( i \) to node \( j \) can be represented as:
 
-![image](https://github.com/user-attachments/assets/ee9af621-65e4-42f8-9076-50ddd7342353)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0086c9cc-462b-4bf7-989d-d6a18b71c7a4" alt="image" width="65%">
+</p>
 
 #### Fuel Consumption of the Vehicle Engine
+
 The fuel consumption cost associated with the unloading process can be expressed as:
 
-![image](https://github.com/user-attachments/assets/cdd1f9ce-3b58-4e01-8c1f-0e3e658ba21a)
 
 
 #### Total Carbon Emission Cost
 Hence, the total carbon emission cost \( C4 \) can be expressed as:
 
-![image](https://github.com/user-attachments/assets/75a5c272-c0af-4afd-a459-c77c7053cf82)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6f02ceba-b90f-4770-9616-5a045d7e34e5" alt="image" width="19%">
+</p>
 
 ---
 
@@ -177,30 +195,37 @@ Hence, the total carbon emission cost \( C4 \) can be expressed as:
 
 If trucks arrive late at demand points beyond a specified time, they must pay a penalty. The penalty cost \( C5 \) can be expressed as:
 
-![image](https://github.com/user-attachments/assets/ba8a1a6e-8d96-4d3b-8de1-9842fcb94611)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/30b6cab0-b457-4968-9f7a-a13b9c49e568" alt="image" width="20%">
+</p>
 
 ---
-## The Damage Cost
+
+### The Damage Cost
 
 Fresh products transported by cold chain logistics vehicles are maintained at low temperatures to preserve their quality. However, factors such as compression and spoilage can lead to a decline in freshness throughout the distribution process. The total damage cost incurred during distribution comprises two components: the damage cost during transportation and the damage cost during unloading.
 
-### Damage Cost During Transportation
+#### Damage Cost During Transportation
 The damage cost incurred during transportation can be expressed as:
 
-![image](https://github.com/user-attachments/assets/b54269d7-e322-494f-a7a3-733026128df7)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e6f966f5-67b3-478d-aabf-58ae9c852595" alt="image" width="45%">
+</p>
 
-
-### Damage Cost During Unloading
+#### Damage Cost During Unloading
 The damage cost incurred during unloading is given by:
 
-![image](https://github.com/user-attachments/assets/93cf683f-2a46-4af0-bc04-a0b2ad9a66a5)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/67a7c890-94cc-453b-b17c-71a928f4aa1d" alt="image" width="57%">
+</p>
 
-
-### Total Damage Cost
+#### Total Damage Cost
 Hence, the total damage cost \( C6 \) can be expressed as:
 
-![image](https://github.com/user-attachments/assets/5d0a8dd7-d173-45d8-a7c6-0d99392648c6)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9e523430-2ecf-4dd8-9ca5-d000fdeae14d" alt="image" width="18%">
+</p>
+
 
 ## Model
 
