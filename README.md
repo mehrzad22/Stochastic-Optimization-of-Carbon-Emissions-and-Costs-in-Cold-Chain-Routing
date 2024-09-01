@@ -1,5 +1,3 @@
-**X<sub>i</sub>**
-
 # TDGVRP Scenario Overview
 
 ## Problem Description
@@ -247,8 +245,6 @@ Each warehouse is served by only one truck at a time. This helps streamline oper
 ### Constraint 9
 The amount of cargo that each truck delivers to various warehouses must remain below its maximum capacity. This is crucial for safety and efficiency.
 
-## Constraints (Continued)
-
 ### Constraint 10
 The total demands from all warehouses must be completely fulfilled. This ensures that customer needs are met and that the distribution network operates effectively.
 
@@ -266,8 +262,6 @@ The number of warehouses must equal the number of delivery occurrences by trucks
 
 ### Constraints 17 and 18
 These constraints indicate which specific truck is being utilized for each delivery. Tracking is essential for managing logistics and scheduling efficiently.
-
-## Additional Constraints
 
 ### Constraint 19
 If a truck does not pass through a warehouse, it cannot deliver any cargo there. This underscores the importance of routing in the logistics process.
@@ -382,23 +376,94 @@ First, we fit a regression function to the solutions obtained from the model ove
 
 
 
+## Numerical Results
+
+<p align="center">
+  <strong>Objective Function Value = 6271.4193239902371</strong><br>
+  <strong>C1 = 768.5000000000001</strong><br>
+  <strong>C2 = 690.4668189893814</strong><br>
+  <strong>C3 = 2965.3618974141928</strong><br>
+  <strong>C4 = 602.0195914334953</strong><br>
+  <strong>C5 = 265.74164649999994</strong><br>
+  <strong>C6 = 979.329369653168</strong>
+</p>
 
 
 
 
+![image](https://github.com/user-attachments/assets/980d4fec-bc1c-4e2b-9b1b-f4f0c6932de3)
+
+
+
+# Logistics Cost Analysis
+
+This document provides an in-depth analysis of various costs associated with logistics operations, highlighting their significance in optimizing overall efficiency and cost-effectiveness. 
+
+## Cost Breakdown
+
+The pie chart below illustrates the ratios of different costs to the objective function value within the logistics context. Each cost category plays a crucial role in shaping operational strategies and enhancing financial performance.
+
+### **Fuel Consumption Cost (C<sub>3</sub>) - 47.3%**
+
+The most significant component, accounting for 47.3%, is the **fuel consumption cost**. This substantial share indicates that fuel expenses are a critical factor in overall logistics costs. Optimizing fuel efficiency not only leads to significant cost savings but also contributes to sustainability efforts by reducing environmental impact. Companies should consider investing in fuel-efficient technologies and practices to mitigate these expenses.
+
+### **Damage Cost (C<sub>6</sub>) - 15.6%**
+
+Following the fuel costs, the **damage cost** represents 15.6% of total expenses. This cost emphasizes the financial impact of product damage that occurs during transportation. Effective management strategies aimed at minimizing damage can significantly enhance the cost-effectiveness of logistics operations. Implementing better packaging and handling procedures can mitigate these risks and improve overall operational efficiency.
+
+### **Delay Penalty Cost (C<sub>5</sub>) - 4.2%**
+
+The **delay penalty cost**, while only 4.2%, is noteworthy due to its potential adverse effects on customer satisfaction and company reputation. Even a small percentage of penalties can accumulate, underscoring the importance of timely deliveries. Companies should focus on improving their scheduling and delivery processes to minimize delays and enhance customer relations.
+
+### **Carbon Emission Cost (C<sub>4</sub>) - 9.6%**
+
+At 9.6%, the **carbon emission cost** reflects the increasing concern regarding the environmental impact of logistics operations. This cost highlights the necessity for companies to adopt sustainable practices. By reducing carbon emissions, businesses can not only improve their public perception but also comply with regulatory requirements, fostering a responsible corporate image.
+
+### **Fixed Cost (C<sub>1</sub>) - 12.3%**
+
+The **fixed cost**, comprising 12.3% of total expenses, includes expenditures that do not vary with the volume of goods transported, such as salaries and equipment maintenance. These costs are essential to maintaining operational stability and should be monitored closely to ensure efficient resource allocation.
+
+### **Refrigeration Cost (C<sub>2</sub>) - 11%**
+
+Lastly, the **refrigeration cost**, accounting for 11%, pertains to expenses related to maintaining appropriate temperatures for perishable goods during transportation. Effective management of refrigeration can enhance the quality of goods delivered and reduce waste, thereby improving financial outcomes.
+
+## Conclusion
+
+In summary, the analysis indicates that fuel and damage costs are the most impactful on total logistics expenses. Strategic focus on these areas can lead to improved efficiency and reduced operational costs. Additionally, prioritizing environmental considerations and timely deliveries is essential for enhancing customer satisfaction and upholding corporate responsibility. Sustainable and efficient logistics practices will ultimately contribute to a company's long-term success in a competitive market.
 
 
 
 
+## Obtained Paths
+
+
+![image](https://github.com/user-attachments/assets/60c5b94f-22af-4251-8bbc-663af0a8ccbf)
+![image](https://github.com/user-attachments/assets/8fba418a-42ea-4cf3-a1ea-84ef0ebe30a2)
+![image](https://github.com/user-attachments/assets/d804ddc1-a60b-4e52-93d8-1b4774ac0753)
+![image](https://github.com/user-attachments/assets/0eac4ad3-b023-4693-94a9-2088cee5ab85)
 
 
 
+## Conclusion
 
+In conclusion, optimizing cold chain logistics is paramount for enhancing both economic efficiency and environmental sustainability. This study underscores the critical importance of implementing low-carbon practices within the cold chain sector, especially as global demand for temperature-sensitive products continues to rise. 
 
+#### Importance of Optimization
 
+The findings demonstrate that integrating carbon emission costs into logistics optimization strategies not only reduces overall operational expenses but also significantly lowers carbon footprints. This dual benefit is increasingly crucial in today’s market, where consumers and regulatory bodies alike are demanding more sustainable practices from businesses. 
 
+#### Strategic Framework
 
+Furthermore, the proposed optimization model serves as a valuable tool for logistics firms aiming to improve their service delivery while adhering to stringent environmental standards. By focusing on the optimization of cold chain processes, companies can streamline operations, reduce waste, and enhance the quality of service provided to customers. This is especially significant in industries where product quality is directly linked to temperature control, such as food and pharmaceuticals.
 
+#### Need for Innovation
+
+As industries strive for sustainable development, it becomes imperative to adopt innovative approaches that effectively address the unique challenges of cold chain logistics. This includes leveraging advanced technologies such as IoT (Internet of Things) for real-time monitoring, AI for predictive analytics, and automation for efficiency. These innovations can facilitate better temperature management, optimize routing, and reduce energy consumption, aligning operational practices with sustainability goals.
+
+#### Long-Term Impact
+
+Ultimately, the optimization of cold chain logistics not only contributes to immediate cost savings but also positions companies as leaders in sustainable practices within their industries. By prioritizing environmental responsibility, logistics firms can enhance their brand reputation, attract eco-conscious consumers, and comply with increasingly stringent regulations. 
+In summary, the integration of economic efficiency with environmental sustainability through optimized cold chain logistics is not merely a competitive advantage; it is becoming a necessity for business longevity and success in a rapidly evolving marketplace.
 
 
 
