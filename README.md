@@ -229,7 +229,12 @@ Hence, the total damage cost \( C6 \) can be expressed as:
 
 ## Model
 
-
+![image](https://github.com/user-attachments/assets/d9542473-fe78-4a5c-9c34-040657f73dd5)
+![image](https://github.com/user-attachments/assets/7e259674-180a-409c-a0f5-da7bd3506eaf)
+![image](https://github.com/user-attachments/assets/341db89c-06b5-4d50-9229-ba0a046b8c06)
+![image](https://github.com/user-attachments/assets/086d5e8f-ac30-4405-b5eb-439209094852)
+![image](https://github.com/user-attachments/assets/5b5cffcb-5bf6-4877-899d-e5d8343724bf)
+![image](https://github.com/user-attachments/assets/dc09cbd6-e5a9-4538-bb93-40edcd6cdd9d)
 
 
 
@@ -393,17 +398,19 @@ First, we fit a regression function to the solutions obtained from the model ove
 
 
 
-![image](https://github.com/user-attachments/assets/f597531e-e191-45bb-979d-1e7d9d45a638)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f597531e-e191-45bb-979d-1e7d9d45a638" alt="image" width="60%">
+</p>
 
-![image](https://github.com/user-attachments/assets/39ab3f3b-3606-41e5-8ac9-793e8518f019)
-
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/39ab3f3b-3606-41e5-8ac9-793e8518f019" alt="image" width="60%">
+</p>
 
 
 
 ## Numerical Results
 
-<p align="center">
+<p>
   <strong>Objective Function Value = 6271.4193239902371</strong><br>
   <strong>C1 = 768.5000000000001</strong><br>
   <strong>C2 = 690.4668189893814</strong><br>
@@ -414,10 +421,9 @@ First, we fit a regression function to the solutions obtained from the model ove
 </p>
 
 
-
-
-![image](https://github.com/user-attachments/assets/980d4fec-bc1c-4e2b-9b1b-f4f0c6932de3)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/980d4fec-bc1c-4e2b-9b1b-f4f0c6932de3" alt="image" width="45%">
+</p>
 
 
 # Logistics Cost Analysis
@@ -462,11 +468,21 @@ In summary, the analysis indicates that fuel and damage costs are the most impac
 ## Obtained Paths
 
 
-![image](https://github.com/user-attachments/assets/60c5b94f-22af-4251-8bbc-663af0a8ccbf)
-![image](https://github.com/user-attachments/assets/8fba418a-42ea-4cf3-a1ea-84ef0ebe30a2)
-![image](https://github.com/user-attachments/assets/d804ddc1-a60b-4e52-93d8-1b4774ac0753)
-![image](https://github.com/user-attachments/assets/0eac4ad3-b023-4693-94a9-2088cee5ab85)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/60c5b94f-22af-4251-8bbc-663af0a8ccbf" alt="image" width="60%">
+</p>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8fba418a-42ea-4cf3-a1ea-84ef0ebe30a2" alt="image" width="60%">
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d804ddc1-a60b-4e52-93d8-1b4774ac0753" alt="image" width="60%">
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0eac4ad3-b023-4693-94a9-2088cee5ab85" alt="image" width="60%">
+</p>
 
 
 ## Conclusion
