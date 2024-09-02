@@ -425,6 +425,24 @@ First, we fit a regression function to the solutions obtained from the model ove
   <img src="https://github.com/user-attachments/assets/980d4fec-bc1c-4e2b-9b1b-f4f0c6932de3" alt="image" width="45%">
 </p>
 
+## Obtained Paths
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/60c5b94f-22af-4251-8bbc-663af0a8ccbf" alt="image" width="60%">
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8fba418a-42ea-4cf3-a1ea-84ef0ebe30a2" alt="image" width="60%">
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d804ddc1-a60b-4e52-93d8-1b4774ac0753" alt="image" width="60%">
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0eac4ad3-b023-4693-94a9-2088cee5ab85" alt="image" width="60%">
+</p>
 
 # Logistics Cost Analysis
 
@@ -464,30 +482,6 @@ In summary, the analysis indicates that fuel and damage costs are the most impac
 
 
 
-
-## Obtained Paths
-
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/60c5b94f-22af-4251-8bbc-663af0a8ccbf" alt="image" width="60%">
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/8fba418a-42ea-4cf3-a1ea-84ef0ebe30a2" alt="image" width="60%">
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/d804ddc1-a60b-4e52-93d8-1b4774ac0753" alt="image" width="60%">
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/0eac4ad3-b023-4693-94a9-2088cee5ab85" alt="image" width="60%">
-</p>
-
-
-## Conclusion
-
-In conclusion, optimizing cold chain logistics is paramount for enhancing both economic efficiency and environmental sustainability. This study underscores the critical importance of implementing low-carbon practices within the cold chain sector, especially as global demand for temperature-sensitive products continues to rise. 
 
 #### Importance of Optimization
 
